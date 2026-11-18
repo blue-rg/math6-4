@@ -4,7 +4,7 @@
 window.FIREBASE_CONFIG = {
   apiKey: "AIzaSyAoYoFDJ4PDIkSPxgOlQmFIcfY68rvuqnk",
   authDomain: "math6-4.firebaseapp.com",
-  databaseURL: "https://math6-4-default-rtdb.firebaseio.com/",
+  databaseURL: "https://math6-4-default-rtdb.firebaseio.com",
   projectId: "math6-4",
   storageBucket: "math6-4.firebasestorage.app",
   messagingSenderId: "105937486017",
@@ -12,4 +12,10 @@ window.FIREBASE_CONFIG = {
 };
 // 선생님 메뉴 비밀번호(기록·코인 초기화, 기록 내려받기). 비워 두면 선생님 메뉴가 꺼져요.
 // 주의: 이 파일은 누구나 볼 수 있어서 완벽한 잠금은 아니에요. 학생에게 이 파일 주소를 알려 주지 마세요.
-window.TEACHER_PIN = '6264';
+window.TEACHER_PIN = '4658';
+
+// 게임 시간(평일, 한국 시간). 이 시간 밖에서는 게임이 잠겨요. 쓰지 않으면 08:30-15:00이에요.
+// 선생님 메뉴에서 반별로 바꾸거나 잠깐 열 수도 있어요. 바꾸려면 아래 줄 앞의 // 를 지우고 시간을 고쳐요.
+// window.PLAY_HOURS = '08:30-15:00';
+// 잠금을 아예 끄려면 아래 줄 앞의 // 를 지워요.
+// window.PLAY_LOCK = false;
